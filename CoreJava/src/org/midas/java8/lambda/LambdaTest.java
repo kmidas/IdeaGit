@@ -18,7 +18,7 @@ public class LambdaTest {
 		phoneList.add(testApple);
 		phoneList.add(androidLG);
 		
-		System.out.println("Before sorting : " + phoneList.get(0).getName() + "," + phoneList.get(1).getName());
+		System.out.println("Before sorting: " + phoneList.get(0).getName() + "," + phoneList.get(1).getName());
 		
 		Collections.sort(phoneList,(p1,p2)->p1.getName().compareTo(p2.getName()));
 		
